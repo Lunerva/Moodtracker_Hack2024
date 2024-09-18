@@ -11,10 +11,6 @@ in the worker, this through technologies such as OpenVINO and Frida, the program
 #Repo: https://github.com/serengil/deepface
 pip install deepface
 ```
-
-```rub
-from deepface import DeepFace
-```
 ### Install OpenVINO using a virtual environment
 
 Create a virtual environment
@@ -24,10 +20,6 @@ python -m venv openvino_env
 Get into the virtual environment
 ```rub
 openvino_env\Scripts\activate
-```
-Get sure python is on latest version
-```rub
-python -m pip install --upgrade pip
 ```
 Install OpenVino
 ```rub
