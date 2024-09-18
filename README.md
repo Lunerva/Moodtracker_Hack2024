@@ -14,8 +14,6 @@ pip install deepface
 
 ```rub
 from deepface import DeepFace
-analysis = DeepFace.analyze(img_path = "img.jpg", actions = ["emotion"])
-print(analysis)
 ```
 ### Install OpenVINO using a virtual environment
 
